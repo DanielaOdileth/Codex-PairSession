@@ -8,7 +8,7 @@ const [showMessage, setShowMessage] = useState(false);
         <div>
             <h1>Welcome to the new app</h1>
             <p>ClicK on the button to display the meesage</p>
-            <button onClick={() => setShowMessage(!showMessage)}>ClicK me </button>
+            <button onClick={() => setShowMessage(!showMessage)}>Click me </button>
             {showMessage && <p>You are cool :D</p>}
         </div>
     )
